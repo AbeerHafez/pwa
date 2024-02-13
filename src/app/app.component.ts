@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
-import { MessagesComponent } from './messages/messages.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule,MessagesComponent],
+  imports: [RouterModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'test-sample17';
+  title = 'my todo app';
 }
