@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "test-sample": {
+    "app18pwa": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/test-sample",
+            "outputPath": "dist/app18pwa",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "test-sample:build:production"
+              "buildTarget": "app18pwa:build:production"
             },
             "development": {
-              "buildTarget": "test-sample:build:development"
+              "buildTarget": "app18pwa:build:development"
             }
           },
           "defaultConfiguration": "development"

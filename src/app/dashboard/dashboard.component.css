@@ -38,7 +38,6 @@ h4 {
 }
 .module:hover {
   background-color: #EEE;
-  cursor: pointer;
   color: #607d8b;
 }
 .grid-pad {

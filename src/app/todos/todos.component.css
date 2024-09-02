@@ -1,10 +1,13 @@
 /* todosComponent's private CSS styles */
 .todos {
-    margin: 0 30em 0;
+    margin: 0 auto;
     list-style-type: none;
     padding: 0;
-    width: 20em;
+    width: 40em;
     height: 10em;
+  }
+  .todos h3{
+     text-align: center;
   }
   .todos li {
     position: relative;
@@ -14,6 +17,8 @@
     padding: .3em 0;
     height: 1.6em;
     border-radius: 4px;
+  color: #607D8B;
+
   }
   
   .todos li:hover {
